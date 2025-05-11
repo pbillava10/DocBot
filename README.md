@@ -16,10 +16,11 @@ A Django-based web application that allows users to upload documents (PDF, DOCX,
 2. **Install dependencies**
    ```bash
    pip install -r requirements.txt
-   ```
+   ```  
 3. **Install Tesseract OCR** (for image/PDF OCR)
    - Windows: Download from https://github.com/tesseract-ocr/tesseract
    - Linux: `sudo apt-get install tesseract-ocr`
+4. **Add Your Together AI API Key** in chatbot/your_backend.py
 4. **Run migrations**
    ```bash
    python manage.py migrate
