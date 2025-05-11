@@ -14,7 +14,7 @@ from collections import defaultdict
 import pickle
 
 # Set Together.ai API Key for LLM
-os.environ["TOGETHER_API_KEY"] = "" #
+os.environ["TOGETHER_API_KEY"] = "" #Your Together AI API Key
 
 # Directory for caching document embeddings
 EMBEDDING_CACHE_DIR = os.path.join("media", "embeddings")
