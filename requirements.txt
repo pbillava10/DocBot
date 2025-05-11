@@ -1,0 +1,11 @@
+django>=3.1
+pymupdf
+pillow
+pytesseract
+python-docx
+pandas
+langchain
+langchain-community
+langchain-core
+langchain-together
+faiss-cpu 

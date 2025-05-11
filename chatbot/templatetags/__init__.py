@@ -1,0 +1,1 @@
+# Marks the templatetags directory as a Python package 
